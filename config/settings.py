@@ -16,7 +16,7 @@ class Config() :
     RECORDING_DURATION = 30
     VIDEO_FORMAT = 'mp4v'
     # Directory settings
-    BASE_DIR = os.path.dirname(os.path.dirname(so.path.abspath(__file__)))
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     RECORDING_DIR = os.path.join(BASE_DIR, 'recordings')
     LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
